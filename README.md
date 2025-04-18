@@ -1,8 +1,3 @@
-Sure! Here's the complete `README.md` in one single copy/paste-friendly block:
-
----
-
-```markdown
 # ♻️ BINKS — Blockchain-Integrated Smart Dustbin System
 
 **BINKS** is an eco-conscious smart bin system powered by **ML**, **IoT**, and **Web3**. It identifies, classifies, and weighs waste in real-time — and rewards users with blockchain-based **BINK tokens** for responsible disposal.
@@ -28,9 +23,11 @@ The goal of BINKS is to promote sustainable waste disposal by:
 4. The bin **weighs** the waste.  
 5. A **reward** is calculated using the formula:
 
-   ```
-   Reward = BaseRate × MaterialMultiplier × Weight × EnvironmentalFactor
-   ```
+Reward = BaseRate × MaterialMultiplier × Weight × EnvironmentalFactor
+
+yaml
+Copy
+Edit
 
 6. The reward is **minted** as tokens on the blockchain and credited to the user's wallet.
 
@@ -62,74 +59,62 @@ The goal of BINKS is to promote sustainable waste disposal by:
 BaseRate = 10 tokens/kg
 
 MaterialMultipliers = {
-  Plastic: 0.8,
-  Paper: 0.6,
-  Glass: 1.2,
-  Metal: 1.5,
-  Organic: 0.4,
-  E-waste: 3.0
+Plastic: 0.8,
+Paper: 0.6,
+Glass: 1.2,
+Metal: 1.5,
+Organic: 0.4,
+E-waste: 3.0
 }
 
 EnvironmentalFactor = 1.0 // (can be dynamic based on impact zone)
-```
+🚀 Getting Started
+Prerequisites
+Node.js (v16+)
 
----
+Yarn / npm
 
-## 🚀 Getting Started
+Supabase account
 
-### Prerequisites
+Lovable account
 
-- Node.js (v16+)  
-- Yarn / npm  
-- Supabase account  
-- Lovable account  
-- Ethereum wallet (e.g., MetaMask)
+Ethereum wallet (e.g., MetaMask)
 
-### Frontend Setup
-
-```bash
+Frontend Setup
+bash
+Copy
+Edit
 cd frontend
 yarn install
 yarn dev
-```
+Backend Setup
+Create a project on Supabase.
 
-### Backend Setup
+Set up tables for:
 
-1. Create a project on [Supabase](https://supabase.io).  
-2. Set up tables for:
-   - Users
-   - Disposals
-   - Initiatives  
-3. Configure Supabase environment variables in `.env`.
+Users
 
-### Smart Contracts
+Disposals
 
-1. Deploy contracts with Hardhat or Foundry.  
-2. Add the contract address and ABI to the frontend Web3 hooks.  
-3. Integrate wallet providers (MetaMask, WalletConnect) for token transactions.
+Initiatives
 
----
+Configure Supabase environment variables in .env.
 
-## 👥 Contributors
+Smart Contracts
+Deploy contracts with Hardhat or Foundry.
 
-| Role                     | Name                 | GitHub                              |
-|--------------------------|----------------------|--------------------------------------|
-| Frontend & ML Developer  | Prathiksha           | [@prtxz](https://github.com/prtxz)   |
-| Backend & ML Developer   | Mohammedyaseen Sutar | [@apex-parzival](https://github.com/apex-parzival) |
-| Blockchain Developer     | Shivani Kishore      | [@Shivani-Kishore](https://github.com/Shivani-Kishore) |
-| Blockchain Developer     | Sai Jadhav           | [@saijadhav369](https://github.com/saijadhav369) |
+Add the contract address and ABI to the frontend Web3 hooks.
 
----
+Integrate wallet providers (MetaMask, WalletConnect) for token transactions.
 
-## 📬 Contact
+👥 Contributors
 
+Role	Name	GitHub
+Frontend & ML Developer	Prathiksha	@prtxz
+Backend & ML Developer	Mohammedyaseen Sutar	@apex-parzival
+Blockchain Developer	Shivani Kishore	@Shivani-Kishore
+Blockchain Developer	Sai Jadhav	@saijadhav369
+📬 Contact
 Feel free to open an issue or connect via GitHub if you have questions, ideas, or want to collaborate.
 
----
-
-## 🗑️ BINKS — Making Every Disposal Count ♻️
-```
-
----
-
-Let me know if you want a version with logo support, GIFs, or markdown deploy buttons!
+🗑️ BINKS — Making Every Disposal Count ♻️
