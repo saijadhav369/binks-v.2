@@ -28,17 +28,12 @@
   - E-waste: 3.0  
 - **Environmental Factor**: Dynamic (default = 1.0)
 
----
-
-## 👥 Contributors
-
-| Role                     | Name                 | GitHub                                                              |
-|--------------------------|----------------------|---------------------------------------------------------------------|
-| Frontend & ML Developer  | Prathiksha           | [@prtxz](https://github.com/prtxz)                                 |
-| Backend & ML Developer   | Mohammedyaseen Sutar | [@apex-parzival](https://github.com/apex-parzival)                 |
-| Blockchain Developer     | Shivani Kishore      | [@Shivani-Kishore](https://github.com/Shivani-Kishore)             |
-| Blockchain Developer     | Sai Jadhav           | [@saijadhav369](https://github.com/saijadhav369)                   |
-
----
+| Role                    | Name                 | GitHub                                                 |
+| ----------------------- | -------------------- | ------------------------------------------------------ |
+| Frontend & ML Developer | Prathiksha           | [@prtxz](https://github.com/prtxz)                     |
+| Backend & ML Developer  | Mohammedyaseen Sutar | [@apex-parzival](https://github.com/apex-parzival)     |
+| Backend Developer       | Harshith R           | [@har-shith](https://github.com/har-shith)             |
+| Blockchain Developer    | Shivani Kishore      | [@Shivani-Kishore](https://github.com/Shivani-Kishore) |
+| Blockchain Developer    | Sai Jadhav           | [@saijadhav369](https://github.com/saijadhav369)       |
 
 ## 🗑️ BINKS — Making Every Disposal Count ♻️
